@@ -1,0 +1,70 @@
+.page {
+    width: 768px;
+    height: 800px;
+    background-color: rgb(255, 251, 244);
+    padding: 10px 20px 20px 20px;
+    margin: 0 auto;
+    box-shadow: 1px 6px 5px rgb(237, 231, 221);
+}
+header {
+    width: 768px;
+    height: 40px;
+    background-color: rgb(255, 251, 244);
+    margin: 0 auto;
+    border-bottom:  2px solid rgb(237, 231, 221);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+header > p > a {
+    text-decoration: none;
+}
+header > p{
+    text-decoration: none;
+    color:rgb(49, 49, 126);
+}
+.block1, .block2, .block3 {
+    width: 768px;
+    height: 200px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background-color: rgb(255, 251, 244);
+    box-shadow: 1px 6px 5px rgb(237, 231, 221);
+    margin: 10px 0;
+    margin-bottom: 50px;
+}
+.tittle {
+    width: 768px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 251, 244);
+}
+.content {
+    width: 768px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 251, 244);
+}
+.picture > img {
+    margin-right: 10px;
+}
+.picture {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    box-shadow: 6px 6px 5px rgb(237, 231, 221);
+}
+h3 {
+    color: rgb(49, 49, 126);
+}
+.text {
+    color: rgb(49, 49, 126);
+}
+.arrow > img {
+    box-shadow: 6px 6px 5px rgb(237, 231, 221);
+    position: relative;
+    top: 100px;
+}
